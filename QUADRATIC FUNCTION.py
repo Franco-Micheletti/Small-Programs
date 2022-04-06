@@ -26,7 +26,7 @@ def quadratic_function(a,b,c):
     print("\nVERTEX AXIS" + "\nX Axis : " + str(xvertex) + "\nY Axis : " + str(yvertex))
 
 
-    #------------GRAFICA---------------------
+    #------------PLOT---------------------
     x = np.linspace(b,c,20)
     y = (a*x**2) + (b*x) +c
 
